@@ -7,6 +7,7 @@ const sqlQuery = await inquirer.prompt({
   name: "user",
   type: "input",
   message: chalk.yellow("Enter your SQL Query"),
+  prefix:""
 });
 
 const config = {
